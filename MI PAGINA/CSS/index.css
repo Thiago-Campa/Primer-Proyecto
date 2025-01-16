@@ -1,0 +1,183 @@
+html {
+    box-sizing: border-box;
+    }
+
+body {
+    background: rgb(10, 8, 8);
+}
+
+nav {
+    border: 2px;
+    border-color: aliceblue;
+    background-color: rgb(45, 46, 46);
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    width: auto;
+}
+
+.navbar p {
+    font-family: 'Georgia', serif;
+    font-size: 50px;
+    color: #b8b5b5; /* Color del texto */
+    text-shadow: 2px 2px 5px rgba(241, 205, 205, 0.3);
+    margin: 0;
+    text-align: center; 
+}
+
+.navbar img{
+    width: 150px;
+    margin: 20px;
+    margin-left: 35px;
+    margin-top: 25px;
+    border-radius: 30px;
+}
+
+.logo {
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.nav-links {
+    margin-right: 20px;
+    list-style: none;
+    font-family: monospace;
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.inicio {
+    background-color: #b8b5b5;
+    display: inline-block;
+    padding: 1px 1px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #000;
+    padding: auto;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana;
+    text-decoration: underline;
+    color: #9e9494;
+    font-size: 35px;
+}
+
+h3 span {
+    margin-left: 600px;
+    font-family: Verdana;
+    color: #9e9494;
+    font-size: 15px;
+}
+
+.aside {
+    width: 300px; /* Ancho deseado para el aside */
+    float: right; /* Colocar el aside a la derecha */
+    margin-top: 55px;
+    padding: 20px; /* Agregar espacio interno para el contenido */
+    background-color: rgb(45, 46, 46);
+    margin-right: 250px;
+    border-radius: 20px;
+}
+
+.proposito h2 {
+    font-size: 23px;
+    margin-top: -10px;
+    margin-left: center;
+    text-decoration: underline;
+}
+
+.hobbies h3{
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.hobbies p{
+    font-family:  Georgia;
+    margin: 1px;
+    margin-top: -1px;
+}
+
+.artista {
+    font-size: 19px;
+    font-family: Georgia;
+    color: #9e9494;
+    margin-top: 50px;
+    margin-left: 320px;
+}
+
+.video { 
+    margin-left: 220px;
+    margin-top: -20px;
+    border-radius: 20px;
+}
+
+.por-si-acaso {
+    margin-top: 100px;
+    margin-left: 570px;
+    font-family: Verdana;
+    color: #9e9494;
+    font-size: 20px;
+}
+
+form {
+    background-color: rgb(45, 46, 46);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto; /* Ajustamos el margen superior para centrarlo verticalment*/
+    margin-top: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #242323;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ajustamos el modelo de caja para incluir el padding en el ancho */
+}
+
+input[type="submit"] {
+    background-color:  #9e9494;
+    color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+footer {
+    background-color: #000000;
+    text-align: left;
+    color: rgb(107, 103, 103);
+    margin-top: 20px;
+}
+.footer-imagen {
+    width: 65px;
+}
+
+.text-footer{
+    margin-left: 440px;
+}
